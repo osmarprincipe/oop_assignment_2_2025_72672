@@ -16,20 +16,20 @@ namespace oop_assignment_2_2025_72672.Models
 
             // Question 4A examples
             Console.WriteLine("4A:");
-            Console.WriteLine(FormatFiveDigits(42));   
-            Console.WriteLine(FormatFiveDigits(123));  
+            Console.WriteLine(FormatFiveDigits(42));
+            Console.WriteLine(FormatFiveDigits(123));
 
             // Question 4B examples
             Console.WriteLine("4B:");
-            Console.WriteLine(FormatPrice(1234.5)); 
-            Console.WriteLine(FormatPrice(50));     
+            Console.WriteLine(FormatPrice(1234.5));
+            Console.WriteLine(FormatPrice(50));
             Console.WriteLine(new string('*', 40));
         }
 
         //Question 4A
         public static string FormatFiveDigits(int number)
         {
-            
+
             return number.ToString("D5");
         }
 

@@ -19,12 +19,12 @@ namespace oop_assignment_2_2025_72672.Models
             // 2B examples
             Console.WriteLine("2B:");
             Console.WriteLine(ParseNumber("123"));
-            Console.WriteLine(ParseNumber("abc")); 
+            Console.WriteLine(ParseNumber("abc"));
 
             // 2C examples
             Console.WriteLine("2C:");
-            Console.WriteLine(RegisterUser(25)); 
-            Console.WriteLine(RegisterUser(15)); 
+            Console.WriteLine(RegisterUser(25));
+            Console.WriteLine(RegisterUser(15));
 
             Console.WriteLine(new string('*', 40));
 

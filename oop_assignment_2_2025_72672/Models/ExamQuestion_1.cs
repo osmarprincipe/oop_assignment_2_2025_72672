@@ -17,7 +17,7 @@ namespace oop_assignment_2_2025_72672.Models
 
             // Question 1B demo
             SampleQuestionBMethod();
-            
+
             Console.WriteLine(new string('*', 40));
         }
 
@@ -25,8 +25,8 @@ namespace oop_assignment_2_2025_72672.Models
         public static void SampleQuestionAMethod()
         {
             Console.WriteLine("Question 1A - Regex sample");
-            Console.WriteLine(ValidateIrishMobile("0899988776"));  
-            Console.WriteLine(ValidateIrishMobile("0812345678"));  
+            Console.WriteLine(ValidateIrishMobile("0899988776"));
+            Console.WriteLine(ValidateIrishMobile("0812345678"));
         }
 
         public static bool ValidateIrishMobile(string phone)
@@ -54,7 +54,7 @@ namespace oop_assignment_2_2025_72672.Models
                 return 0;
             }
 
-            
+
             level = level.Trim();
 
             switch (level)

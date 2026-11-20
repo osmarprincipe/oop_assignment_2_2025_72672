@@ -24,7 +24,7 @@ namespace oop_assignment_2_2025_72672.Models
             Console.WriteLine(new string('*', 40));
         }
 
-        
+
         public static void ProcessProducts(List<(string Name, List<int> Ratings)> products)
         {
             double highestAvg = double.MinValue;
@@ -57,7 +57,7 @@ namespace oop_assignment_2_2025_72672.Models
             }
         }
 
-       
+
         public static double CalculateAverageRating(List<int> ratings)
         {
             if (ratings == null || ratings.Count == 0)
